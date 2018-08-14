@@ -4,7 +4,7 @@
 
 	<groupId>raj.aayush</groupId>
 	<artifactId>rest-example-docker</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<parent>
