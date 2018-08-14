@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  mysql-docker-container:
+  mysql-docker-container1:
     image: mysql:latest
     environment:
       - MYSQL_ROOT_PASSWORD=root
@@ -16,8 +16,8 @@ services:
       context: ./
       dockerfile: Dockerfile
     depends_on:
-      - mysql-docker-container
+      - mysql-docker-container1
     ports:
       - 8087:8080
     volumes:
-      - /data/spring-boot-app
+      - /data/rest-example-docker
